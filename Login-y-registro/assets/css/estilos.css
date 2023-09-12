@@ -149,7 +149,19 @@ main{
     outline: none;
 }
 
+.btn__login{
+    padding: 10px; /*espacio alrededor texto*/
+    margin-top: 20px;
+    display: inline-flex;
+    background-color: #46A2FD;; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    border-radius: 50px; /*bordes redondos*/
+}
 
+.btn__login:hover{
+    background-color: rgb(55, 128, 201);
+}
 
 
 .formulario__login{
