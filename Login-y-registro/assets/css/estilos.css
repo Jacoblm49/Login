@@ -8,7 +8,7 @@
 
  /* PONERLE DE FONDO UNA IMAGEN A LA PAGINA */
 body{
-    background-image: url(../images/bg2.jpg);
+    background-image: url(../images/bg3.jpg);
     /* Ajusta el tamaño de la iamgen al contenedor */
     background-size: cover;
     background-repeat: no-repeat;
