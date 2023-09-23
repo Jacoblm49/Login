@@ -42,7 +42,7 @@ main{
     -webkit-backdrop-filter: blur(10px);
     /* EFECTO ESPEJO */
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 128, 255, 0.5);
+    background-color: #00324d;
 
 }
 
@@ -87,7 +87,7 @@ main{
 
 .caja__trasera button:hover{
     background: #fff;
-    color: #46A2FD;
+    color: #39a900;
 }
 
 /*Formularios*/
@@ -117,7 +117,7 @@ main{
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: #46A2FD;
+    color: #39a900
 }
 
 /* ESTILO CASILLAS INPUT */
@@ -125,12 +125,15 @@ main{
     width: 100%;
     margin-top: 20px;
     padding: 10px;
-    /* QUITARLE EL BORDE */
-    border: none;
-    
+    /*QUITARLEELBORDE*/border: none;
     background: #F2F2F2;
     font-size: 16px;
-    outline: none;
+    outline-color:#2f6b10;
+    transition:all .0.3s ;
+    -webkit-transition:all .0.3s ;
+    -moz-transition:all .0.3s ;
+    -ms-transition:all .0.3s ;
+    -o-transition:all .0.3s ;
 }
 
 /* ESTILO BOTON REGISTRAR DEL FORMULARIO */
@@ -140,7 +143,7 @@ main{
     margin-top: 30px;
     border: none;
     font-size: 16px;
-    background: #46A2FD;
+    background: #39a900;
     /* GROSOR DE LA TIPOGRAFIA */
     font-weight: 600; /*no va con px */
 
@@ -150,17 +153,17 @@ main{
 }
 
 .btn__login{
-    padding: 10px; /*espacio alrededor texto*/
-    margin-top: 20px;
+    padding: 10px 40px;
+        /*espacioalrededortexto*/margin-top: 20px;
     display: inline-flex;
-    background-color: #46A2FD;; /*color botón*/
-    color: #ffffff; /*color texto*/
-    text-decoration: none; /*decoración texto*/
-    border-radius: 50px; /*bordes redondos*/
+    background-color: #39a900;
+    /*colorbotón*/color: #ffffff;
+    /*colortexto*/text-decoration: none;
+    /*decoracióntexto*/border-radius: 10px;
 }
 
 .btn__login:hover{
-    background-color: rgb(55, 128, 201);
+    background-color: #2f6b10;
 }
 
 
